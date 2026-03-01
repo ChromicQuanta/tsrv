@@ -19,5 +19,5 @@ fi
 
 
 export MONO_IOMAP=all
-./${BASENAME}.bin.${ext} $@
+./${BASENAME}.bin.${ext}-world ./Terraria/Worlds/InsertCreativeNameHere.wld $@
 
